@@ -109,8 +109,7 @@
     .slider_section .carousel-control-next {
         display: none;
     }
-
-
+}
     @media (max-width: 480px) {
         .car_section .car_container .box::before {
             border-radius: 0;
@@ -120,18 +119,8 @@
             width: 100%;
         }
     }
-
-    @media (max-width: 400px) {}
-
     @media (max-width: 376px) {
         .slider_section .slider_container .detail_container .detail-box h1 {
             font-size: 2.5rem;
         }
-    }
-
-    @media (min-width: 1200px) {
-        .container {
-            max-width: 1170px;
-        }
-
     }

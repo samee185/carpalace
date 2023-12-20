@@ -1,5 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",
+ sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -85,7 +86,8 @@ body {
   padding: 0px 25px;
   color: #fefeff;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",
+ sans-serif;
 }
 
 .custom_menu-btn {
@@ -223,9 +225,11 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   font-weight: 700;
-  color: #240a5e;
+  color:whitesmoke;
 }
-
+.navbar-brand span:hover{
+  color:#240a5e;
+}
 .custom_nav-container {
   z-index: 99999;
   padding: 15px 0;
@@ -238,11 +242,6 @@ a:focus {
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.html);
   background-size: 55px;
-}
-
-.user_option {
-  margin-left: auto;
-  margin-right: 95px;
 }
 
 .user_option a {
@@ -261,14 +260,23 @@ a:focus {
   display: flex;
 }
 
-.slider_section .slider_container .img-box {
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
   -webkit-box-flex: 2.5;
-      -ms-flex: 2.5;
-          flex: 2.5;
+  -ms-flex: 2.5;
+      flex: 2.5;
 }
 
-.slider_section .slider_container .img-box img {
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .slider_section .slider_container .detail_container {
@@ -299,8 +307,9 @@ a:focus {
   margin: auto;
 }
 
-.slider_section .slider_container .detail_container .detail-box h1 {
-  font-family: "Open Sans", sans-serif;
+.slider_section .slider_container .detail_container .detail-box h2 {
+  font-family: "Open Sans",
+ sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: #fefdfc;
@@ -335,6 +344,8 @@ a:focus {
   background-color: #240a5e;
   background-size: 20px;
   background-position: center;
+  -webkit-box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.6);
 }
 
 .slider_section .carousel-control-prev {
@@ -873,7 +884,8 @@ a:focus {
 }
 
 .client_section {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .client_section .heading_container {

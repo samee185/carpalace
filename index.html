@@ -41,11 +41,6 @@
           </a>
 
           <div class="navbar-collapse" id="">
-            <div class="user_option">
-              <a href="#">
-                Login
-              </a>
-            </div>
             <div class="custom_menu-btn">
               <button onclick="openNav()">
                 <span class="s-1"> </span>
@@ -55,11 +50,10 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index-2.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="car.html">Cars</a>
                 <a href="contact.html">Book Us</a>
-                <a href="#">Login</a>
               </div>
             </div>
           </div>
@@ -70,46 +64,48 @@
     <!-- slider section -->
     <section class=" slider_section position-relative">
       <div class="slider_container">
-        <div class="img-box">
-          <img src="images/hero-img.jpg" alt="">
+        <div class="video-container">
+          <video autoplay muted loop id="background-video">
+              <source src="https://cadcdnprod01v2-daffhpb7b8cdfkhx.z01.azurefd.net/-/media/project/cadencebank/cadence/videos/home/geopersonalizationq12023/brand.mp4?rev=2b8e7d2da2ae4163ad87c2568913d13f&sc_lang=en" type="video/mp4">
+          </video>
         </div>
         <div class="detail_container">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="detail-box">
-                  <h1>
-                    Rent Car <br>
-                    Experts <br>
+                  <h2>
+                    Car <br>
+                    Rental <br>
                     Service
-                  </h1>
+                  </h2>
                   <a href="#">
-                    Contact Us
+                    Book Us
                   </a>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="detail-box">
-                  <h1>
-                    Rent Car <br>
-                    Experts <br>
-                    Service
-                  </h1>
+                  <h2>
+                    Airport <br>
+                    Pick Up &<br>
+                    Drop off
+                  </h2>
                   <a href="#">
-                    Contact Us
+                    Book Us
                   </a>
                 </div>
               </div>
               <div class="carousel-item">
                 <div class="detail-box">
-                  <h1>
+                  <h2>
                     Rent Car <br>
                     Experts <br>
                     Service
-                  </h1>
+                  </h2>
                   <a href="#">
-                    Contact Us
-                  </a>
+                    Book Us
+                  </a>                                        
                 </div>
               </div>
             </div>
@@ -134,29 +130,40 @@
           <div class="col-lg-8">
             <div class="form-row">
               <div class="col-md-6">
+                <label for="parkingName">Email</label>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="col-md-6">
+                <label for="parkingNumber">Phone Number</label>
+                <input type="text" class="form-control" placeholder="Phone number">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6">
                 <label for="parkingName">Pick Up Locaion</label>
-                <input type="text" class="form-control" placeholder="acb ">
+                <input type="text" class="form-control" placeholder="Where are you at">
               </div>
               <div class="col-md-6">
                 <label for="parkingNumber">Drop Location</label>
-                <input type="text" class="form-control" placeholder="acb ">
+                <input type="text" class="form-control" placeholder="Where are you going">
               </div>
             </div>
             <div class="form-row">
               <div class="col-md-6">
                 <label for="parkingName">Pick Up Date</label>
-                <input type="text" class="form-control" placeholder="07/09/2020">
+                <input type="date" class="form-control" placeholder="01/01/2023">
               </div>
               <div class="col-md-6">
                 <label for="parkingNumber">Return Date</label>
-                <input type="text" class="form-control" placeholder="07/09/2020">
+                <input type="date" class="form-control">
               </div>
             </div>
           </div>
+
           <div class="col-lg-4">
             <div class="btn-container">
               <button type="submit" class="">
-                Search
+                Quick Book
               </button>
             </div>
           </div>
@@ -556,7 +563,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Request A call back
+          Give Your Review of Our Service
         </h2>
       </div>
       <div class="row">
@@ -573,11 +580,11 @@
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email id">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="inputMessage" placeholder="Message">
+                <input type="text" class="form-control" id="inputMessage" placeholder="Review">
               </div>
               <div class="d-flex justify-content-center">
                 <button type="submit" class="">Send</button>
@@ -593,8 +600,7 @@
             <img src="images/location.png" alt="">
           </div>
           <h6>
-            Loram Ipusum ari
-            lo elisant na
+            Suite 23 & 24 Independence Plaza, Behind Lagos Motor Park, Iwo Road, Ibadan.
           </h6>
         </a>
         <a href="#">
@@ -602,7 +608,7 @@
             <img src="images/call.png" alt="">
           </div>
           <h6>
-            (+12 1234456789)
+            (+234-8164504282)
           </h6>
         </a>
         <a href="#">
@@ -610,10 +616,9 @@
             <img src="images/mail.png" alt="">
           </div>
           <h6>
-            demo@gmail.com
+            carpalace@gmail.com
           </h6>
         </a>
-
       </div>
       <div class="social_container">
         <div class="social-box">
@@ -625,11 +630,6 @@
           <div>
             <a href="#">
               <img src="images/twitter.png" alt="">
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="images/linkedin.png" alt="">
             </a>
           </div>
           <div>
@@ -650,7 +650,7 @@
     <!-- map section -->
     <div class="map_container">
       <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Muritala+Muhammed+International+Airport+Lagos+Nigeria" width="600" height="350" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
       </div>
     </div>
     <!-- end map section -->
@@ -662,8 +662,7 @@
   <!-- footer section -->
   <footer class="container-fluid footer_section">
     <p>
-      Copyright &copy; 2020 All Rights Reserved. Design by
-      <a href="https://html.design/">Free Html Templates</a> Distributed by <a href="https://themewagon.com/">ThemeWagon</a>
+      Copyright &copy; 2020 All Rights Reserved To Samee Tech hub.
     </p>
   </footer>
   <!-- footer section -->
@@ -673,10 +672,5 @@
   <script src="../../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
   <script src="js/custom.js"></script>
-
-
 </body>
-
-
-<!-- Mirrored from themewagon.github.io/Rent4u/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Sep 2023 16:15:03 GMT -->
 </html>
