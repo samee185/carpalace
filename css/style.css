@@ -234,21 +234,6 @@ a:focus {
   z-index: 99999;
   padding: 15px 0;
 }
-
-.custom_nav-container .navbar-toggler {
-  outline: none;
-}
-
-.custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(../images/menu.html);
-  background-size: 55px;
-}
-
-.user_option a {
-  color: #fefdfc;
-  font-size: 16px;
-}
-
 /*end header section*/
 .slider_section .carousel {
   position: unset;
